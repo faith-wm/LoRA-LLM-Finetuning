@@ -1,5 +1,4 @@
 # lora-llm-finetuning
 
-Lora finetuning of llm
-
-For single-node multi-GPU setting run as --> deepspeed train_lora.py
+This repo provides a pipeline for fine-tuning of LLMs using LoRA.
+Supports Flash Attention 2, Deepspeed, and gradient checkpointing.
